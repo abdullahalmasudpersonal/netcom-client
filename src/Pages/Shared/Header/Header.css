@@ -1,0 +1,84 @@
+.header-bg{
+    padding: 0 15px;
+    height: 55px;
+    background-color: rgb(226, 241, 255);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-dev1{
+    width: 350px;
+    height: 55px;
+    display: flex;
+    grid-gap: 7px;
+    justify-content: start;
+    align-items: center;
+}
+.header-dev2{
+    width: 350px;
+    height: 55px;
+    display: flex;
+    grid-gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.header-dev3{
+    width: 350px;
+    height: 55px;
+    display: flex;
+    grid-gap: 7px;
+    justify-content: end;
+    align-items: center;
+}
+.header-dev2-font{
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.header-dev2-font:hover{
+    background-color: rgb(201, 229, 255);
+}
+.header-dev3-font-account{
+    border-radius: 50px;
+    padding: 2px ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+.header-dev3-font-account:hover{
+    background-color: rgb(184, 222, 255) !important;
+}
+.header-dev3-font-account-font{
+    padding: 7px;
+    border-radius: 50px;
+}
+.header-dev3-font-account-user-name{
+    font-weight: 600;
+    margin:0;
+    padding: 0 7px 3px 7px;
+}
+.header-dev3-font-message{
+    background-color: rgb(178, 218, 253);
+    border-radius: 50px;
+    padding: 13px 14px;
+    cursor: pointer;
+}
+.header-dev3-font-notification{
+    background-color: rgb(185, 222, 255);
+    padding: 13px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.header-dev3-font-ellipsis{
+    padding: 13px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(186, 223, 255);
+}
+

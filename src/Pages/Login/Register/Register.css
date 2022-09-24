@@ -1,0 +1,38 @@
+.register-bg{
+    background-color: rgb(247, 251, 255);
+}
+.register{
+    height: 700px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.register-dev{
+    height: 450px;
+    width: 280px;
+    background-color: rgb(223, 240, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login-color{
+    color: rgb(67, 167, 255);
+}
+.register-form{
+    display: flex;
+    justify-content: center;
+
+}
+.register-input{
+    height: 37px;
+    margin: 7px auto ;
+    border-radius: 50px;
+    width: 250px;
+}
+.register-submit-btn{
+    transition: .3s;
+    background: #c5e4ff;
+}
+.register-submit-btn:hover{
+    background-color: rgb(181, 221, 255);
+}

@@ -1,0 +1,46 @@
+.login-bg{
+    background-color: rgb(247, 251, 255);
+}
+.login{
+    min-height: 900px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.login-dev{
+    height: 450px;
+    width: 280px;
+    background-color: rgb(223, 240, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login-color{
+    color: rgb(67, 167, 255);
+}
+.login-form-dev{
+    display: flex;
+    justify-content: center;
+}
+.login-form-dev input{
+    width: 250px;
+    height: 37px;
+    border-radius: 50px;
+    border: none;
+    margin: 7px auto;
+}
+.login-forget-btn{
+    cursor: pointer;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+.login-forget-btn:hover{
+    color: red;
+}
+.login-submit-btn{
+    transition: .3s;
+    background: #c5e4ff;
+}
+.login-submit-btn:hover{
+    background-color: rgb(181, 221, 255);
+}
