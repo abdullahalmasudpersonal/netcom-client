@@ -1,0 +1,168 @@
+.post-page {
+    background-color: rgb(220, 230, 238);
+}
+
+/* -----------------------left part start----------------- */
+.post-post-edit-bio {
+    background-color: rgb(214, 236, 255);
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: .4s;
+}
+
+.post-post-edit-bio:hover {
+    border: none;
+    background-color: rgb(194, 227, 255);
+}
+
+/*--------------------- put new page css start ------------------------------*/
+.post-post-submit-post-btn {
+    border: none;
+    font-weight: bold;
+    background: none;
+    position: absolute;
+    margin-top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: gray;
+    transition: .4s;
+}
+
+.post-post-submit-post-btn:hover {
+    color: rgb(67, 80, 92);
+}
+
+/*--------------------- put new page css end ------------------------------*/
+
+/* -----------------------left part end ----------------- */
+.post-search-input {
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    background-color: rgb(230, 247, 255);
+    border: none;
+    border-radius: 50px;
+    position: relative;
+}
+
+.post-post-live-video {
+    width: 100%;
+    text-align: center;
+    padding: 7px 0;
+    margin: auto 5px;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.post-post-live-video:hover {
+    background-color: rgb(205, 231, 253);
+}
+
+.post-post-top-part {
+    justify-content: space-between;
+}
+
+.post-font-ellipsish-detail {
+    padding: 10px;
+    border-radius: 50px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.post-font-ellipsish-detail:hover {
+    background-color: rgb(205, 231, 253);
+}
+
+.post-post-react {
+    width: 100%;
+    text-align: center;
+    padding: 7px 0;
+    cursor: pointer;
+    margin: auto 5px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.post-post-react:hover {
+    background-color: rgb(205, 231, 253);
+}
+
+.post-comment-input {
+    padding-left: 10px;
+    background-color: rgb(230, 247, 255);
+}
+
+.post-post-hobbis {
+    border-radius: 50px;
+    padding: 2px 15px 5px 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.post-post-see-all-photo {
+    font-size: 19px;
+    transition: .4s;
+    margin-bottom: 0;
+    border-radius: 5px;
+    padding: 1px 7px 2px 7px;
+    cursor: pointer;
+}
+
+.post-post-see-all-photo:hover {
+    background-color: rgb(209, 233, 255);
+}
+
+/* -----------------------my post style start------------------ */
+
+.dropdown {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+.dropbtn:hover{
+    color: rgb(233, 132, 0);
+    transition:0.4s;
+}
+.dropdown-content-mypost { 
+    display: none;
+    position: absolute;
+    background-color: #eff8fd;
+    top: 20px;
+    right: 0;
+    min-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+}
+@media screen and (max-width:1199px) {
+    .dropdown-content-mypost{
+        left: 0;
+    }
+}
+.dropdown-content-mypost div {
+    color: black;
+    padding: 3px 6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+.dropdown-content-mypost div:hover {
+    background-color: rgb(224, 239, 253);
+}
+.dropdown:hover .dropdown-content-mypost {
+    display: block;
+}
+.dropdown2 {
+    color: black;
+    position: relative;
+}
+
+/* -----------------------my post style end-------------------- */

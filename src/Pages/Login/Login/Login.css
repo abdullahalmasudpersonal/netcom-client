@@ -1,5 +1,5 @@
 .login-bg{
-    background-color: rgb(247, 251, 255);
+    background-color: rgb(243, 249, 255);
 }
 .login{
     min-height: 900px;
@@ -8,10 +8,13 @@
     justify-content: center;
     align-content: center;
 }
+.login-from-sitename{
+    color: rgb(0, 118, 165);
+}
 .login-dev{
     height: 450px;
     width: 280px;
-    background-color: rgb(223, 240, 255);
+    background-color: rgb(215, 227, 236);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -39,8 +42,10 @@
 }
 .login-submit-btn{
     transition: .3s;
-    background: #c5e4ff;
+    background: #c0d1e0;
+    cursor: pointer;
+    font-weight: bold;
 }
 .login-submit-btn:hover{
-    background-color: rgb(181, 221, 255);
+    background-color: rgb(177, 196, 219);
 }

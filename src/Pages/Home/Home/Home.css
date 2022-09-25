@@ -1,11 +1,11 @@
-
-
+.home-bg{
+    min-height: 700px;
+    background-color: rgb(230, 235, 241);
+}
 .home{
     display: flex;
     justify-content: center;
 }
 .home-dev{
-    text-align: center;
-    background-color: aliceblue;
     width: 700px;
 }

@@ -65,9 +65,10 @@ const Login = () => {
                 <div className='login'>
                     <div className='login-dev'>
                         <div className='d-flex justify-content-center pt-4'>
-                            <img width='100px' src={logo} alt='' />
+                            {/* <img width='100px' src={logo} alt='' /> */}
+                            <h2 className='login-from-sitename mb-0'>𝕹𝖊𝖙𝖈𝖔𝖒</h2>
                         </div>
-                        <h4 className='text-center pt-3 login-color'>Login</h4>
+                        <h3 className='text-center pt-2 login-color'>Login</h3>
                       <div className='login-form-dev'>
                       <form onSubmit={handleSubmit}>
                             <input type='email' ref={emailRef} placeholder='Email' name='' required /> <br />

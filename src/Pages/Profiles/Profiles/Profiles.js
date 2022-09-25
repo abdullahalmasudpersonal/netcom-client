@@ -9,44 +9,66 @@ const Profiles = () => {
     const [user] = useAuthState(auth);
 
     return (
-        <div className='profile-bg'>
-            <div className='container profile-dev'>
+        <div className='profiles-bg'>
+            <div className='container profiles-dev '>
                 <img width='100%' height='400px' style={{ borderRadius: '0 0 5px 5px' }} src={coverphoto} alt='' />
                 <div className='d-flex'>
                     <div className=''>
-                        <img className='profile-my-img' src={user?.photoURL}  alt='' />
+                        <img className='profiles-my-img' src={user?.photoURL} alt='' />
                     </div>
                     <div>
-                        <h2 className='profile-user-name'> {user?.displayName} </h2>
+                        <h2 className='profiles-user-name'> {user?.displayName} </h2>
                     </div>
                 </div>
-                <hr className='profile-hrs' />
-                <nav class="navbar-expand-lg">
+                <hr className='profiles-hrs' />
+                <nav class="navbar-expand-lg mb-2">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <Link to='/profile'>
+                                <Link to='/profile' style={{ color: 'black' }}>
                                     <a class="nav-link" >Posts <span class="sr-only">(current)</span></a>
                                 </Link>
                             </li>
                             <li class="nav-item active">
-                                <Link to='/profile/about'>
+                                <Link to='/profile/about' style={{ color: 'black' }}>
                                     <a class="nav-link" >About <span class="sr-only">(current)</span></a>
                                 </Link>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                                <Link to='/profile/about' style={{ color: 'black' }}>
+                                    <a class="nav-link" >Friends <span class="sr-only">(current)</span></a>
+                                </Link>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Friends <span class="sr-only">(current)</span></a>
+                                <Link to='/profile/about' style={{ color: 'black' }}>
+                                    <a class="nav-link" >Photos <span class="sr-only">(current)</span></a>
+                                </Link>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Photo <span class="sr-only">(current)</span></a>
+                                <Link to='/profile/about' style={{ color: 'black' }}>
+                                    <a class="nav-link" >Videos <span class="sr-only">(current)</span></a>
+                                </Link>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Video <span class="sr-only">(current)</span></a>
+                                <Link to='/profile/about' style={{ color: 'black' }}>
+                                    <a class="nav-link" >Checke-ins <span class="sr-only">(current)</span></a>
+                                </Link>
                             </li>
                             <li class="nav-item active dropdown">
+                                <Link to='/profile/about'>
+                                    <a  style={{ color: 'black' }} class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        More
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </Link>
+                            </li>
+
+                           {/*  <li class="nav-item active dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     More
                                 </a>
@@ -56,10 +78,7 @@ const Profiles = () => {
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Something else here</a>
                                 </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#"></a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </nav>
@@ -72,53 +91,3 @@ const Profiles = () => {
 };
 
 export default Profiles;
-
-{/* <div className='container-lg py-5'>
-            <div className='dashboard'>
-                <div className='pr-2'>
-                    <div className='dashboard-dev2'>
-                        <div className='dashboard-pro-img'>
-                            <img width='60px' alt='' />
-                        </div>
-                        <h6 className='text-center fw-bold'></h6>
-                        <ul className='pt-3 px-4'>
-                            <Link to='/dashboard' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>My Profile</li>
-                            </Link>
-                            <Link to='/dashboard/address' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>Address
-                                </li>
-                            </Link>
-                            {<Link to='/dashboard/add-review' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>Add Review</li>
-                            </Link>}
-                            <Link to='/dashboard/my-order' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>My Order
-                                </li>
-                            </Link>
-                            {<Link to='/dashboard/add-product' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>Add Product
-                                </li>
-                            </Link>}
-                            {<Link to='/dashboard/manage-product' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>Manage Product
-                                </li>
-                            </Link>}
-                            {<Link to='/dashboard/manage-all-orders' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>Manage All Orders
-                                </li>
-                            </Link>}
-                            <Link to='/dashboard' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>Payment History
-                                </li>
-                            </Link>
-                            {<Link to='/dashboard/users' className='text-decoration-none'>
-                                <li className='dashboard-list-item ps-3 mb-2'>Make Admin
-                                </li>
-                            </Link>}
-                        </ul>
-                    </div>
-                </div>
-                <Outlet />
-            </div>
-        </div> */}

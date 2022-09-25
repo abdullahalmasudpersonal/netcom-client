@@ -16,8 +16,8 @@ const SocialLogin = () => {
     const navigate = useNavigate();
     const location = useLocation();
     /* const [token] = useToken(user); */
-  /*   
-    let from = location.state?.from?.pathname || '/'; */
+     
+    let from = location.state?.from?.pathname || '/'; 
     let errorElement; 
 
  /*    if(loading){
@@ -29,9 +29,9 @@ const SocialLogin = () => {
             <p className='text-danger'>{error?.message} {error?.message}</p>
     } 
 
-    /* if (token) {
+    if (user) {
         navigate(from, { replace: true });
-    } */
+    } 
 
     return (
         <div>

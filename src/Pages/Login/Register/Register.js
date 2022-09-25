@@ -50,9 +50,10 @@ const Register = () => {
                 <div className='register'>
                     <div className='register-dev'>
                         <div className='d-flex justify-content-center pt-4'>
-                            <img width='100px' src={logo} alt='' />
+                           {/*  <img width='100px' src={logo} alt='' /> */}
+                           <h2 className='login-from-sitename mb-0'>𝕹𝖊𝖙𝖈𝖔𝖒</h2>
                         </div>
-                        <h4 className='text-center pt-3 login-color'>Register</h4>
+                        <h3 className='text-center pt-2 login-color'>Register</h3>
 
                         <form onSubmit={handleRegister} className='register-form'>
                             <div className='register-input-field'>

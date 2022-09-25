@@ -7,6 +7,7 @@
     font-size: 16px;
     border: none;
 }
+
 .dropdown {
     color: black;
     position: relative;
@@ -48,6 +49,7 @@
     color: black;
     position: relative;
 }
+
 .profile {
     display: flex;
     justify-content: center;

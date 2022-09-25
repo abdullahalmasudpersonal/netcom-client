@@ -68,7 +68,6 @@ const Header = () => {
                                 user ?
                                     <li class="dropdown nav-item">
                                         <FontAwesomeIcon className='header-dev3-font-ellipsis' icon={faEllipsisVertical} />
-                                        {/* <img src={profile} style={{ borderRadius: '50%', cursor: 'pointer' }} width='30px' className='pt-1' alt='' /> */}
                                         <div className='dropdown-content py-2'>
                                             <div className='profile profile-img'>
                                                 <img src={user?.photoURL} style={{ borderRadius: '50%', cursor: 'pointer' }} width='60px' className='pt-1 ' alt='' />

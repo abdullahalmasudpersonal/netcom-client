@@ -20,11 +20,11 @@ const Header = () => {
           </form>
         </div>
 
-        <div className='header-dev2'>
-          <FontAwesomeIcon className='header-dev2-font' icon={faHome} />
-          <FontAwesomeIcon className='header-dev2-font' icon={faStopwatch} />
-          <FontAwesomeIcon className='header-dev2-font' icon={faUserFriends} />
-          <FontAwesomeIcon className='header-dev2-font' icon={faShop} />
+        <div className='header-dev2' style={{fontColor:'gray'}}>
+          <FontAwesomeIcon style={{fontColor:'black'}} className='header-dev2-font' icon={faHome} />
+          <FontAwesomeIcon style={{fontColor:'black'}} className='header-dev2-font' icon={faStopwatch} />
+          <FontAwesomeIcon style={{fontColor:'black'}} className='header-dev2-font' icon={faUserFriends} />
+          <FontAwesomeIcon style={{fontColor:'black'}} className='header-dev2-font' icon={faShop} />
         </div>
 
         <div className='header-dev3'>

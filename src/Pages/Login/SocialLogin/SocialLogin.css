@@ -1,6 +1,6 @@
 
 .continue-with-google{
-    background: #c5e4ff;
+    background: #c0d1e0;
     height: 40px;
     border-radius: 50px;
     transition: .3s;
@@ -8,5 +8,5 @@
     font-weight: bold;
 }
 .continue-with-google:hover{
-    background-color: rgb(181, 221, 255);
+    background-color: rgb(177, 196, 219);
 }
